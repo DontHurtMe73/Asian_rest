@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Basket</title>
+   <link rel="stylesheet" href="./css/normal.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="basket">
+      <header class="header">
+         <div class="basket__container">
+            <h1 class="header__title basket__title">Корзина с выбранными товарами</h1>
+         </div>
+      </header>
+      <main class="main basket__main">
+         <div class="basket__container">
+            <div class="product__wrapper">
+               <div class="product">
+                  <img class="product__img" src="./img/basket/oysters.png" alt="устрицы">
+                  <span class="product__name">Устрицы по рокфеллеровски</span>
+                  <div class="price__wrapper">
+                     <span class="product__price">2 700 &#8381;</span>
+                     <button class="basket__btn">
+                        <img src="./img/ui/basket__btn.svg" alt="удалить">
+                     </button>
+                  </div>
+               </div>
+               <!-- /.product -->
+               <div class="product">
+                  <img class="product__img" src="./img/basket/scampi.png" alt="креветки">
+                  <span class="product__name">Креветки по-королевски
+                     в лимонном соке</span>
+                  <div class="price__wrapper">
+                     <span class="product__price">1 820 &#8381;</span>
+                     <button class="basket__btn">
+                        <img src="./img/ui/basket__btn.svg" alt="удалить">
+                     </button>
+                  </div>
+               </div>
+               <!-- /.product -->
+               <div class="product">
+                  <img class="product__img" src="./img/basket/rib.png" alt="ребра">
+                  <span class="product__name">Свиные ребрышки на гриле с зеленью</span>
+                  <div class="price__wrapper">
+                     <span class="product__price">1 600 &#8381;</span>
+                     <button class="basket__btn">
+                        <img src="./img/ui/basket__btn.svg" alt="удалить">
+                     </button>
+                  </div>
+               </div>
+               <!-- /.product -->
+            </div>
+         </div>
+      </main>
+      <footer class="footer footer__basket">
+         <div class="basket__container">
+            <div class="footer__wrapper">
+               <h2 class="total">Заказ на сумму: <span class="total-price">6 220 &#8381;</span></h2>
+               <button class="button footer__btn">Оформить заказ</button>
+            </div>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>
