@@ -10,7 +10,8 @@ modalBtn.addEventListener('click', (event) => {
   // валидность мыла
    if(!(validateEmail(emailField.value)) || emailField.value.trim().length === 0){
       emailField.value = '';
-      emailField.placeholder = 'Введите E-mail'
+      emailField.placeholder = 'Введите E-mail';
+      alert('Некорректный E-mail');
       return
    } else{
       emailField.value = '';
