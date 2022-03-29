@@ -14,13 +14,13 @@ modalBtn.addEventListener('click', (event) => {
       return
    } else{
       emailField.value = '';
-      console.log('arbaiten');
    }
 
    //валидация пароля
    if(passwordField.value.trim().length === 0 || passwordField.value.trim().length < 8){
       passwordField.value = '';
-      passwordField.placeholder = 'Неверный пароль'
+      passwordField.placeholder = 'Неверный пароль';
+      alert('пароль должен содержать не менее 8 символов');
       return
    }
 
